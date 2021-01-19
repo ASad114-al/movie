@@ -13,3 +13,5 @@ mongoose.connect(process.env.dburi, { useNewUrlParser: true, useUnifiedTopology:
         app.listen(process.env.PORT, () => console.log(`http://localhost:${process.env.PORT}`))
     })
     .catch(err => console.log(err))
+
+    app
